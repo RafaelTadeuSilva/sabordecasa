@@ -99,6 +99,22 @@
       document.body.style.background = "transparent";
     }
   </script>
+  <script>
+  (function () {
+    // Lê os parâmetros da URL para encontrar a rota de redirecionamento
+    var redirect = sessionStorage.redirect;
+    delete sessionStorage.redirect;
+    if (redirect && redirect != location.href) {
+      history.replaceState(null, null, redirect);
+    }
+    var query = window.location.search;
+    if (query.startsWith('?p=')) {
+      // Constrói a nova URL
+      var newPath = query.substring(3) + window.location.hash;
+      window.history.replaceState(null, null, newPath);
+    }
+  })();
+</script>
 </head>
 <body>
   <picture id="splash">
