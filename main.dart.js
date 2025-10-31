@@ -53356,7 +53356,7 @@ $1(a){A.bI(this.a,!1).b6(null)},
 $S:12}
 A.tV.prototype={
 a3(){var s=t.s
-return new A.Kz(new A.by(Date.now(),0,!1),A.b([],t.oM),A.b(["Vendas","Servi\xe7os","Outros"],s),A.b(["Fornecedores","Sal\xe1rios","Aluguel","Energia","\xc1gua","Internet","Manuten\xe7\xe3o","Marketing","Impostos","Outros"],s),null,null)}}
+return new A.Kz(new A.by(Date.now(),0,!1),A.b([],t.oM),A.b(["Vendas","Servi\xe7os","Outros"],s),A.b(["Mercado","A\xe7ougue","Verdura","Fornecedores","Sal\xe1rios","Aluguel","Energia","\xc1gua","Internet","Manuten\xe7\xe3o","Marketing","Impostos","Outros"],s),null,null)}}
 A.Kz.prototype={
 ah(){this.au()
 var s=this.a.c.c
